@@ -3,6 +3,8 @@ Sample CDK Stack running selenium 4.x on Amazonlinux2
 # Dev Environment
 
 ```bash
+$ docker --version
+Docker version 20.10.21, build baeda1f
 $ cdk --version
 2.121.1 (build d86bb1a)
 $ python -V
