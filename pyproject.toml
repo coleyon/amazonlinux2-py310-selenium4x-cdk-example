@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sample-crawler"
+version = "0.1.0"
+description = "web crawler"
+authors = ["coleyon <24493192+coleyon@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aws-cdk-lib = "^2.110.0"
+boto3 = "^1.29.3"
+selenium = "^4.16.0"
+chromedriver-binary = "120.0.6099.109"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
